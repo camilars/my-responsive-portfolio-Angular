@@ -1,0 +1,132 @@
+@import '../../../scss/variables.scss';
+
+
+.skills__container {
+  row-gap: 0;
+}
+
+.skills__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: $mb-2-5;
+  cursor: pointer;
+}
+
+.skills__icon, .skills__arrow {
+  font-size: 2rem;
+  color: $first-color;
+}
+
+.skills__icon {
+  margin-right: $mb-0-75;
+}
+
+.skills__title {
+  font-size: $h3-font-size;
+}
+
+.skills__subtitle {
+  font-size: $small-font-size;
+  color: $text-color-light;
+}
+
+.skills__arrow {
+  margin-left: auto;
+  transition: .4s;
+}
+
+.skills__titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $mb-0-5;
+}
+
+.skills__name {
+  font-size: $normal-font-size;
+  font-weight: $font-medium;
+}
+
+.skills__bar,
+.skills__percentage {
+  height: 5px;
+  border-radius: 0.25rem;
+}
+
+.skills__bar {
+  background: $first-color-lighter;
+}
+
+.skills__percentage {
+  display: block;
+  background-color: $first-color;
+}
+
+.skills__html {
+  width: 90%;
+}
+
+.skills__css {
+  width: 70%;
+}
+
+.skills__js {
+  width: 60%;
+}
+
+.skills__ts {
+  width: 75%;
+}
+
+.skills__angular {
+  width: 70%;
+}
+
+.skills__bootstrap {
+  width: 60%;
+}
+
+.skills__ng-bootstrap {
+  width: 65%;
+}
+
+.skills__angulajs {
+  width: 45%;
+}
+
+.skills__gitlab {
+  width: 25%;
+}
+
+.skills__azure {
+  width: 30%;
+}
+
+.skills__aws {
+  width: 35%;
+}
+
+.skills__jira {
+  width: 40%;
+}
+
+.skills__figma {
+  width: 30%;
+}
+
+.skills__zeplin {
+  width: 25%;
+}
+
+.skills__close .skills__list {
+  height: 0;
+  overflow: hidden;
+}
+
+.skills__open .skills__list {
+  height: max-content;
+  margin-bottom: $mb-2-5;
+}
+
+.skills__open .skills__arrow {
+  transform: rotate(-180deg);
+}
